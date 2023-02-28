@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner section */
+.container {
+    background-image: url('/images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.banner {
+    float: right;
+    width: 500px;
+    margin-top: 200px;
+    margin-right: 15%;
+}
+
+.banner-title {
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-discription {
+    text-align: right;
+    margin-top: 8px;
+}
+
+.banner-btn {
+    float: right;
+    background-color: #F15B22;
+    border: none;
+    color: #ffff;
+    padding: 5px 10px;
+    margin-top: 8px;
+}
+
+/* fancy section */
+.fancy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fancy-img {
+    width: 30%;
+}
+
+.fancy-img img {
+    width: 70%;
+    float: right;
+}
+
+.fancy-img {
+    width: 30%;
+}
+
+.fancy-dis {
+    margin-left: 50px;
+    width: 30%;
+}
+
+.fa-check {
+
+    color: #04ea49;
+}
+
+.check-mark p {
+    display: inline;
+}
+
+/* plans css  */
+.paln-titel {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -50px;
+    font-size: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-item p {
+    color: #837e7e;
+}
+
+/* my service */
+.service {
+    width: 80%;
+    margin: auto;
+}
+
+.service-titel {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 20%;
+    margin: auto;
+    height: 5px;
+    background-color: #013f14;
+    border: none;
+    border-radius: 10%;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.service-item {
+    width: 27%;
+    border: 1px solid #013f14;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* hand section */
+.watch {
+    background-image: url("/images/watch.png");
+    width: 80%;
+    height: 8%;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    margin: auto;
+    position: relative;
+}
+
+.watch img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.watch-discript {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #ffff;
+
+}
+
+.watch-discript button {
+    padding: 5px 10px;
+    border: none;
+    color: red;
+    border-radius: 8%;
+    margin-top: 2%;
+}
+
+/* Future */
+footer {
+    background-color: black;
+    padding: 2% 0;
+    margin-top: 100px;
+}
+
+.footer-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: auto;
+}
+
+.Future p {
+    margin: 15px 0;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons img {
+    background-color: #ffff;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.subscribe input {
+    border: 1px solid rgb(62, 62, 62);
+    border-radius: 3%;
+    padding: 8px 13px;
+    margin: 10px 0;
+    background-color: black;
+}
+
+.subscribe button {
+    border: none;
+    padding: 5px 10px;
+    color: red;
+    border-radius: 6%;
+}
